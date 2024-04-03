@@ -1,0 +1,287 @@
+.navbar {
+  height: 90px;
+  max-width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: sans-serif;
+  position: sticky;
+  top: 0;
+  left: 0;
+  background-color: white;
+  z-index: 100;
+}
+.logo {
+  height: 75px;
+  margin-left: 10px;
+}
+.nav-options {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 40%;
+}
+.nav-options > a {
+  text-decoration: none;
+  color: rgb(88, 87, 87);
+}
+.hero-section {
+  max-width: 100%;
+  height: 80vh;
+  padding-top: 30px;
+  background-image: url("https://code-with-akash.github.io/foodmunch/images/banner_bg1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  filter: brightness(80%);
+  z-index: -100;
+}
+.hero-section > h1 {
+  font-size: 45px;
+}
+.hero-section > p {
+  font-size: 25px;
+  font-weight: 500;
+}
+.buttons {
+  display: flex;
+  column-gap: 15px;
+}
+
+.b1,
+.b2 {
+  border-radius: 18px;
+  width: 120px;
+  padding: 10px 15px;
+  font-size: 15px;
+  font-weight: 700;
+  color: white;
+  border: 1px solid rgb(208, 178, 0);
+}
+.b1 {
+  background-color: rgb(208, 178, 0);
+}
+.b2 {
+  background-color: black;
+}
+
+/*.healthy {
+  max-width: 100%;
+  height: 350px;
+  background-color: #f9fbfe;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  row-gap: 60px;
+}
+.organic {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  column-gap: 100px;
+  margin-bottom: 70px;
+}
+.fruits {
+  width: 600px;
+  height: 200px;
+}
+.healthy .img {
+  width: 400px;
+  height: 150px;
+}
+.healthy p {
+  display: inline-block;
+}
+
+.process {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  column-gap: 40px;
+}
+.order {
+  width: 600px;
+  height: 300px;
+  margin-bottom: 20px;
+}
+.payment-card-img {
+  width: 50px;
+  height: 50px;
+  margin-right: 28px;
+  object-fit: cover;
+  vertical-align: middle;
+}
+*/
+.choices-page {
+  max-width: 100%;
+  background-color: #f9fbfe;
+  padding: 60px;
+  height: 430px;
+}
+.choices {
+  width: 1200px;
+  margin: auto;
+  display: flex;
+  column-gap: 25px;
+  align-items: center;
+  justify-content: center;
+}
+.choice {
+  width: 350px;
+  margin-top: 30px;
+  height: 250px;
+  border-radius: 15px;
+  border: 1px solid #b0b1b3;
+  padding: 15px;
+  text-align: center;
+}
+
+.food-items {
+  height: 800px;
+  margin: auto;
+  width: 1100px;
+  display: flex;
+
+  gap: 20px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.fooditems {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 20px;
+}
+
+.food-item img {
+  width: 220px;
+  border-radius: 15px;
+  height: 150px;
+}
+.food-item {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  width: 220px;
+  height: 240px;
+  border-radius: 15px;
+  padding: 15px;
+}
+.food-item > a {
+  text-decoration: none;
+  color: rgb(208, 178, 0);
+}
+.food-item > p {
+  font-size: 20px;
+}
+.healthy {
+  max-width: 100%;
+  height: 580px;
+  background-color: #f9fbfe;
+  padding-top: 50px;
+}
+.organic {
+  width: 1100px;
+  height: 240px;
+  display: flex;
+  margin: auto;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.healthy .img {
+  width: 400px;
+  height: 150px;
+}
+.fruits {
+  width: 580px;
+  height: 240px;
+}
+.payment-card-img {
+  width: 50px;
+  height: 50px;
+  margin-right: 28px;
+  vertical-align: middle;
+}
+
+.payment {
+  margin-bottom: 30px;
+}
+.organic button {
+  background-color: #d0b200;
+  border-radius: 18px;
+  padding: 8px 12px;
+  border: none;
+  color: #ffffff;
+  font-size: 15px;
+}
+
+.redeem {
+  max-width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #faf7e5;
+  column-gap: 70px;
+}
+.redeem img {
+  width: 300px;
+  height: 300px;
+}
+.thanks > h3 {
+  font-size: 30px;
+}
+.thanks > p {
+  font-size: 18px;
+}
+.thanks button {
+  background-color: #d0b200;
+  border-radius: 18px;
+  padding: 8px 12px;
+  border: none;
+  color: #ffffff;
+  font-size: 15px;
+}
+
+.socialmedia {
+  height: 230px;
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  row-gap: 20px;
+}
+.apps i {
+  font-size: 30px;
+  margin-right: 20px;
+  border: 1px solid #faf7e8;
+  color: #d0b200;
+  background-color: #faf7e8;
+  padding: 15px;
+  border-radius: 50%;
+}
+.socialmedia > h2 {
+  font-size: 32px;
+}
+
+.address {
+  font-family: "roboto";
+  background-color: #323f4b;
+  height: 170px;
+  text-align: center;
+  padding: 10px;
+  color: #ffffff;
+}
+.address img {
+  height: 75px;
+}
+.address > p {
+  font-size: 18px;
+}
